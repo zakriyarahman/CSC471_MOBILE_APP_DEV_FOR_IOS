@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31031CE31C5F21C500440688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31031CE21C5F21C500440688 /* AppDelegate.swift */; };
+		31031CE51C5F21C500440688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31031CE41C5F21C500440688 /* ViewController.swift */; };
+		31031CE81C5F21C500440688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31031CE61C5F21C500440688 /* Main.storyboard */; };
+		31031CEA1C5F21C500440688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31031CE91C5F21C500440688 /* Assets.xcassets */; };
+		31031CED1C5F21C500440688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31031CEB1C5F21C500440688 /* LaunchScreen.storyboard */; };
+		31031CF81C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31031CF71C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.swift */; };
+		31031D031C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31031D021C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.swift */; };
+		314C569D1C72B07400FFD64B /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C569C1C72B07400FFD64B /* DVRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31031CF41C5F21C500440688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31031CD71C5F21C500440688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31031CDE1C5F21C500440688;
+			remoteInfo = ZRahman_TV_Remote_Phone;
+		};
+		31031CFF1C5F21C500440688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31031CD71C5F21C500440688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31031CDE1C5F21C500440688;
+			remoteInfo = ZRahman_TV_Remote_Phone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31031CDF1C5F21C500440688 /* ZRahman_TV_Remote_Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRahman_TV_Remote_Phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31031CE21C5F21C500440688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31031CE41C5F21C500440688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31031CE71C5F21C500440688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31031CE91C5F21C500440688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31031CEC1C5F21C500440688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31031CEE1C5F21C500440688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31031CF31C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRahman_TV_Remote_PhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31031CF71C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRahman_TV_Remote_PhoneTests.swift; sourceTree = "<group>"; };
+		31031CF91C5F21C500440688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31031CFE1C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRahman_TV_Remote_PhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31031D021C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRahman_TV_Remote_PhoneUITests.swift; sourceTree = "<group>"; };
+		31031D041C5F21C500440688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314C569C1C72B07400FFD64B /* DVRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DVRViewController.swift; path = ../DVRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31031CDC1C5F21C500440688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CF01C5F21C500440688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CFB1C5F21C500440688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31031CD61C5F21C500440688 = {
+			isa = PBXGroup;
+			children = (
+				31031CE11C5F21C500440688 /* ZRahman_TV_Remote_Phone */,
+				31031CF61C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests */,
+				31031D011C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests */,
+				31031CE01C5F21C500440688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31031CE01C5F21C500440688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31031CDF1C5F21C500440688 /* ZRahman_TV_Remote_Phone.app */,
+				31031CF31C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.xctest */,
+				31031CFE1C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31031CE11C5F21C500440688 /* ZRahman_TV_Remote_Phone */ = {
+			isa = PBXGroup;
+			children = (
+				314C569C1C72B07400FFD64B /* DVRViewController.swift */,
+				31031CE21C5F21C500440688 /* AppDelegate.swift */,
+				31031CE41C5F21C500440688 /* ViewController.swift */,
+				31031CE61C5F21C500440688 /* Main.storyboard */,
+				31031CE91C5F21C500440688 /* Assets.xcassets */,
+				31031CEB1C5F21C500440688 /* LaunchScreen.storyboard */,
+				31031CEE1C5F21C500440688 /* Info.plist */,
+			);
+			path = ZRahman_TV_Remote_Phone;
+			sourceTree = "<group>";
+		};
+		31031CF61C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				31031CF71C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.swift */,
+				31031CF91C5F21C500440688 /* Info.plist */,
+			);
+			path = ZRahman_TV_Remote_PhoneTests;
+			sourceTree = "<group>";
+		};
+		31031D011C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31031D021C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.swift */,
+				31031D041C5F21C500440688 /* Info.plist */,
+			);
+			path = ZRahman_TV_Remote_PhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31031CDE1C5F21C500440688 /* ZRahman_TV_Remote_Phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31031D071C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_Phone" */;
+			buildPhases = (
+				31031CDB1C5F21C500440688 /* Sources */,
+				31031CDC1C5F21C500440688 /* Frameworks */,
+				31031CDD1C5F21C500440688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRahman_TV_Remote_Phone;
+			productName = ZRahman_TV_Remote_Phone;
+			productReference = 31031CDF1C5F21C500440688 /* ZRahman_TV_Remote_Phone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31031CF21C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31031D0A1C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_PhoneTests" */;
+			buildPhases = (
+				31031CEF1C5F21C500440688 /* Sources */,
+				31031CF01C5F21C500440688 /* Frameworks */,
+				31031CF11C5F21C500440688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31031CF51C5F21C500440688 /* PBXTargetDependency */,
+			);
+			name = ZRahman_TV_Remote_PhoneTests;
+			productName = ZRahman_TV_Remote_PhoneTests;
+			productReference = 31031CF31C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31031CFD1C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31031D0D1C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_PhoneUITests" */;
+			buildPhases = (
+				31031CFA1C5F21C500440688 /* Sources */,
+				31031CFB1C5F21C500440688 /* Frameworks */,
+				31031CFC1C5F21C500440688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31031D001C5F21C500440688 /* PBXTargetDependency */,
+			);
+			name = ZRahman_TV_Remote_PhoneUITests;
+			productName = ZRahman_TV_Remote_PhoneUITests;
+			productReference = 31031CFE1C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31031CD71C5F21C500440688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = csc471.depaul.edu;
+				TargetAttributes = {
+					31031CDE1C5F21C500440688 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					31031CF21C5F21C500440688 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31031CDE1C5F21C500440688;
+					};
+					31031CFD1C5F21C500440688 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 31031CDE1C5F21C500440688;
+					};
+				};
+			};
+			buildConfigurationList = 31031CDA1C5F21C500440688 /* Build configuration list for PBXProject "ZRahman_TV_Remote_Phone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31031CD61C5F21C500440688;
+			productRefGroup = 31031CE01C5F21C500440688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31031CDE1C5F21C500440688 /* ZRahman_TV_Remote_Phone */,
+				31031CF21C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests */,
+				31031CFD1C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31031CDD1C5F21C500440688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31031CED1C5F21C500440688 /* LaunchScreen.storyboard in Resources */,
+				31031CEA1C5F21C500440688 /* Assets.xcassets in Resources */,
+				31031CE81C5F21C500440688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CF11C5F21C500440688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CFC1C5F21C500440688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31031CDB1C5F21C500440688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31031CE51C5F21C500440688 /* ViewController.swift in Sources */,
+				314C569D1C72B07400FFD64B /* DVRViewController.swift in Sources */,
+				31031CE31C5F21C500440688 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CEF1C5F21C500440688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31031CF81C5F21C500440688 /* ZRahman_TV_Remote_PhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31031CFA1C5F21C500440688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31031D031C5F21C500440688 /* ZRahman_TV_Remote_PhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31031CF51C5F21C500440688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31031CDE1C5F21C500440688 /* ZRahman_TV_Remote_Phone */;
+			targetProxy = 31031CF41C5F21C500440688 /* PBXContainerItemProxy */;
+		};
+		31031D001C5F21C500440688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31031CDE1C5F21C500440688 /* ZRahman_TV_Remote_Phone */;
+			targetProxy = 31031CFF1C5F21C500440688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31031CE61C5F21C500440688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31031CE71C5F21C500440688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31031CEB1C5F21C500440688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31031CEC1C5F21C500440688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31031D051C5F21C500440688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31031D061C5F21C500440688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31031D081C5F21C500440688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRahman_TV_Remote_Phone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-Phone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31031D091C5F21C500440688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRahman_TV_Remote_Phone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-Phone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31031D0B1C5F21C500440688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRahman_TV_Remote_PhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-PhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRahman_TV_Remote_Phone.app/ZRahman_TV_Remote_Phone";
+			};
+			name = Debug;
+		};
+		31031D0C1C5F21C500440688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRahman_TV_Remote_PhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-PhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRahman_TV_Remote_Phone.app/ZRahman_TV_Remote_Phone";
+			};
+			name = Release;
+		};
+		31031D0E1C5F21C500440688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRahman_TV_Remote_PhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-PhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRahman_TV_Remote_Phone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		31031D0F1C5F21C500440688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRahman_TV_Remote_PhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.ZRahman-TV-Remote-PhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRahman_TV_Remote_Phone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31031CDA1C5F21C500440688 /* Build configuration list for PBXProject "ZRahman_TV_Remote_Phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31031D051C5F21C500440688 /* Debug */,
+				31031D061C5F21C500440688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31031D071C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_Phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31031D081C5F21C500440688 /* Debug */,
+				31031D091C5F21C500440688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31031D0A1C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_PhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31031D0B1C5F21C500440688 /* Debug */,
+				31031D0C1C5F21C500440688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31031D0D1C5F21C500440688 /* Build configuration list for PBXNativeTarget "ZRahman_TV_Remote_PhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31031D0E1C5F21C500440688 /* Debug */,
+				31031D0F1C5F21C500440688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31031CD71C5F21C500440688 /* Project object */;
+}
